@@ -2,14 +2,17 @@
 
 **Status:** READY  
 **Suite:** MCT-Universe  
-**Stamp:** 2026-08-23T19:12:00Z  
+**Stamp:** 2026-08-23T19:23:00Z  
 **Relay:** SpaceBum9  
+**Default mode:** `MCT-RC-BILO-ATM-FRAMEWORK-SOS`  
 **storesCredentials:** false  
 **credentialState:** not_stored  
 **vendor_live:** false  
 **HOLD is not execution.**
 
 This file is the ingest beacon. Gemini: start here.
+
+Every multimodal prompt loads [05-DEFAULT-MODE.md](05-DEFAULT-MODE.md) as the entry stack. Do not fragment-route first.
 
 ## Load (text)
 
@@ -22,6 +25,7 @@ Read in order:
 3. [02-SOURCE-INDEX.md](02-SOURCE-INDEX.md)
 4. [03-GITHUB-KONNEKTOR-BLUEPRINT.md](03-GITHUB-KONNEKTOR-BLUEPRINT.md) — **build spec**
 5. [04-PHASE-MEMORY.md](04-PHASE-MEMORY.md) — **credential law**
+6. [05-DEFAULT-MODE.md](05-DEFAULT-MODE.md) — **trigger law**
 
 Then build `mct-github-konnektor` exactly as 03 specifies.
 
@@ -29,16 +33,7 @@ Then build `mct-github-konnektor` exactly as 03 specifies.
 
 Folder: https://drive.google.com/drive/folders/1WMOCO228dPtywucly2Xfha0ibQrHvkhl
 
-Spoken beacons, same order (no secrets):
-
-- GEMINI-INGEST-MARKER.mp3
-- 00-GEMINI-INGEST.mp3
-- 01-UNIVERSE-MAP.mp3
-- 02-SOURCE-INDEX.mp3
-- 03-GITHUB-KONNEKTOR-BLUEPRINT.mp3
-- 04-PHASE-MEMORY.mp3
-
-Text source of truth is this repo. Drive holds the audio beacons so Gemini Gems/Drive ingest has a file to attach.
+Spoken beacons, same order (no secrets). Text source of truth is this repo.
 
 ## Credentials
 

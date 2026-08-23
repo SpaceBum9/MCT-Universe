@@ -1,7 +1,9 @@
 # 00 — Gemini ingest order
 
 You are ingesting **MCT-Universe**, the SpaceBum9 constellation.
-Relay: SpaceBum9 / Crystal Mike. Pack stamp: 2026-08-23T18:50:00Z.
+Relay: SpaceBum9 / Crystal Mike. Pack stamp: 2026-08-23T19:23:00Z.
+
+**Default mode for every multimodal prompt:** `MCT-RC-BILO-ATM-FRAMEWORK-SOS` (see 05).
 
 ## Read order
 
@@ -10,6 +12,7 @@ Relay: SpaceBum9 / Crystal Mike. Pack stamp: 2026-08-23T18:50:00Z.
 3. 02-SOURCE-INDEX
 4. 03-GITHUB-KONNEKTOR-BLUEPRINT — **this is the build spec**
 5. 04-PHASE-MEMORY — **this is the credential law**
+6. 05-DEFAULT-MODE — **this is the trigger law**
 
 Then, if GitHub is connected, fetch public trees by SHA from 02. Do not clone private HOLD nodes.
 
@@ -26,6 +29,7 @@ It is **not** live execution. HOLD is not execution. `vendor_live=false` until t
 - Do not circumvent paywalls. Do not place live trading orders.
 - Do not invent APIs that are not in 03.
 - Do not write `storesCredentials: true` anywhere.
+- Do not fragment-route a prompt to CMD / 170021 / HAL before loading the default stack.
 
 ## Allowed
 
@@ -33,6 +37,7 @@ It is **not** live execution. HOLD is not execution. `vendor_live=false` until t
 - Build the Konnektor as specified in 03.
 - Accept a **phase handle** at runtime (RAM only, 15 min, detach on expiry).
 - Emit Trace records that name the handle id, never the secret.
+- Treat 05 as the default trigger for text, image, audio, video, canvas, and tool prompts.
 
 ## Continuation anchors
 

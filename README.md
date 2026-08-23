@@ -2,6 +2,8 @@
 
 Gemini ingest pack for the SpaceBum9 constellation. **No credentials stored.** Phase memory only.
 
+**Default trigger:** `MCT-RC-BILO-ATM-FRAMEWORK-SOS` — every multimodal prompt loads the whole stack first ([05-DEFAULT-MODE.md](05-DEFAULT-MODE.md)).
+
 ## For Gemini
 
 Read in order:
@@ -11,6 +13,7 @@ Read in order:
 3. [02-SOURCE-INDEX.md](02-SOURCE-INDEX.md)
 4. [03-GITHUB-KONNEKTOR-BLUEPRINT.md](03-GITHUB-KONNEKTOR-BLUEPRINT.md) — build spec
 5. [04-PHASE-MEMORY.md](04-PHASE-MEMORY.md) — credential law
+6. [05-DEFAULT-MODE.md](05-DEFAULT-MODE.md) — trigger law
 
 Then build `mct-github-konnektor` as specified in 03.
 
