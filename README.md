@@ -4,6 +4,8 @@ Gemini ingest pack for the SpaceBum9 constellation. **No credentials stored.** P
 
 **Default trigger:** `MCT-RC-BILO-ATM-FRAMEWORK-SOS` — every multimodal prompt loads the whole stack first ([05-DEFAULT-MODE.md](05-DEFAULT-MODE.md)).
 
+**Correction:** [08-CORRECTION.md](08-CORRECTION.md) — GitHub is source of truth. Hugging Face ABSENT (404). Drive beacons are audio only.
+
 ## For Gemini
 
 Read in order:
@@ -11,13 +13,14 @@ Read in order:
 1. [00-GEMINI-INGEST.md](00-GEMINI-INGEST.md)
 2. [01-UNIVERSE-MAP.md](01-UNIVERSE-MAP.md)
 3. [02-SOURCE-INDEX.md](02-SOURCE-INDEX.md)
-4. [03-GITHUB-KONNEKTOR-BLUEPRINT.md](03-GITHUB-KONNEKTOR-BLUEPRINT.md) — build spec
-5. [04-PHASE-MEMORY.md](04-PHASE-MEMORY.md) — credential law
-6. [05-DEFAULT-MODE.md](05-DEFAULT-MODE.md) — trigger law
+4. [03-GITHUB-KONNEKTOR-BLUEPRINT.md](03-GITHUB-KONNEKTOR-BLUEPRINT.md)
+5. [04-PHASE-MEMORY.md](04-PHASE-MEMORY.md)
+6. [05-DEFAULT-MODE.md](05-DEFAULT-MODE.md)
+7. [06-EXECUTE-INTERFACES.md](06-EXECUTE-INTERFACES.md)
+8. [07-GARAS-FINANCE.md](07-GARAS-FINANCE.md)
+9. [08-CORRECTION.md](08-CORRECTION.md)
 
 Then build `mct-github-konnektor` as specified in 03.
-
-Prompt: [GEMINI-PROMPT.txt](GEMINI-PROMPT.txt)
 
 ## Law
 
@@ -27,4 +30,4 @@ Tokens are handed as a 15-minute phase handle in RAM. They never appear in this 
 
 ## Drive
 
-Folder (created, same pack): https://drive.google.com/drive/folders/1WMOCO228dPtywucly2Xfha0ibQrHvkhl
+Folder (audio beacons): https://drive.google.com/drive/folders/1WMOCO228dPtywucly2Xfha0ibQrHvkhl
