@@ -13,7 +13,7 @@ Do not pick a single node first (`detectTargetNode` → CMD / 170021 / HAL). Loa
 | Token | Layer | Live object |
 | --- | --- | --- |
 | **MCT** | Kernel | MCT-2600027 (supersedes MCT-1700021 HOLD archive) |
-| **RC** | Reinforcement Context | `reinforce.ts` rankContext — heaviest crystals first; SAI route Quelle → Crystal Mike → HAL → Ziel → Reinforcement |
+| **RC** | Reinforcement Context | `reinforce.ts` rankContext — heaviest crystals first; SAI route Source → Crystal Mike → HAL → Target → Reinforcement |
 | **BILO** | Core label | BILO 2026, public paths only, not statute |
 | **ATM** | Automaton corridor | AutomatonCommand overlay: initialize / sync / halt. `execute` rejected until operator + para Border + Dual-Pol |
 | **FRAMEWORK** | GARAS | SoS **v3.0** (v3.2 absent — do not invent axes) |

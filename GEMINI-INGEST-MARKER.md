@@ -2,7 +2,7 @@
 
 **Status:** READY  
 **Suite:** MCT-Universe  
-**Stamp:** 2026-08-23T19:23:00Z  
+**Stamp:** 2026-08-23T19:46:00Z  
 **Relay:** SpaceBum9  
 **Default mode:** `MCT-RC-BILO-ATM-FRAMEWORK-SOS`  
 **storesCredentials:** false  
@@ -12,7 +12,7 @@
 
 This file is the ingest beacon. Gemini: start here.
 
-Every multimodal prompt loads [05-DEFAULT-MODE.md](05-DEFAULT-MODE.md) as the entry stack. Do not fragment-route first.
+Every multimodal prompt loads [05-DEFAULT-MODE.md](05-DEFAULT-MODE.md) as the entry stack. Do not fragment-route first. Operator-facing prose is English. GARAS axis ids (`nutzen`, `gerechtigkeit`, …) stay as protocol keys.
 
 ## Load (text)
 
@@ -26,6 +26,8 @@ Read in order:
 4. [03-GITHUB-KONNEKTOR-BLUEPRINT.md](03-GITHUB-KONNEKTOR-BLUEPRINT.md) — **build spec**
 5. [04-PHASE-MEMORY.md](04-PHASE-MEMORY.md) — **credential law**
 6. [05-DEFAULT-MODE.md](05-DEFAULT-MODE.md) — **trigger law**
+7. [06-EXECUTE-INTERFACES.md](06-EXECUTE-INTERFACES.md) — **interface law**
+8. [07-GARAS-FINANCE.md](07-GARAS-FINANCE.md) — **finance intent**
 
 Then build `mct-github-konnektor` exactly as 03 specifies.
 
