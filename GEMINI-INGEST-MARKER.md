@@ -2,7 +2,7 @@
 
 **Status:** READY  
 **Suite:** MCT-Universe  
-**Stamp:** 2026-08-23T18:57:00Z  
+**Stamp:** 2026-08-23T19:12:00Z  
 **Relay:** SpaceBum9  
 **storesCredentials:** false  
 **credentialState:** not_stored  
@@ -11,7 +11,7 @@
 
 This file is the ingest beacon. Gemini: start here.
 
-## Load
+## Load (text)
 
 Repo: https://github.com/SpaceBum9/MCT-Universe
 
@@ -25,12 +25,20 @@ Read in order:
 
 Then build `mct-github-konnektor` exactly as 03 specifies.
 
-## Drive
+## Load (Drive)
 
-Folder created, **0 files uploaded** (this sandbox cannot register Drive artifacts):
-https://drive.google.com/drive/folders/1WMOCO228dPtywucly2Xfha0ibQrHvkhl
+Folder: https://drive.google.com/drive/folders/1WMOCO228dPtywucly2Xfha0ibQrHvkhl
 
-Ingest from this GitHub repo, not the empty Drive folder.
+Spoken beacons, same order (no secrets):
+
+- GEMINI-INGEST-MARKER.mp3
+- 00-GEMINI-INGEST.mp3
+- 01-UNIVERSE-MAP.mp3
+- 02-SOURCE-INDEX.mp3
+- 03-GITHUB-KONNEKTOR-BLUEPRINT.mp3
+- 04-PHASE-MEMORY.mp3
+
+Text source of truth is this repo. Drive holds the audio beacons so Gemini Gems/Drive ingest has a file to attach.
 
 ## Credentials
 
