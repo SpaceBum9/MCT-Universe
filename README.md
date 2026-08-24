@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> **Consolidated on 2026-08-24.** The canonical location is [SpaceBum9/MCT-1700021 · context/universe](https://github.com/SpaceBum9/MCT-1700021/tree/main/context/universe). This repository is retained only for history and open-work provenance. Do not start new work here.
+
 # MCT-Universe
 
 Gemini ingest pack for the SpaceBum9 constellation. **No credentials stored.** Phase memory only.
