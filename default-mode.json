@@ -1,11 +1,22 @@
 {
   "mode": "MCT-RC-BILO-ATM-FRAMEWORK-SOS",
   "default_for": "every_multimodal_prompt",
-  "modalities": ["text", "image", "audio", "video", "canvas", "tool"],
+  "modalities": [
+    "text",
+    "image",
+    "audio",
+    "video",
+    "canvas",
+    "tool"
+  ],
   "adoption": "default",
   "forced_protocol": false,
   "execute": false,
   "vendor_live": false,
+  "live_rail": true,
+  "LIVE_RAIL": true,
+  "default": "denied",
+  "entry_default": "denied",
   "storesCredentials": false,
   "credentialState": "not_stored",
   "framework": "GARAS SoS v3.0",
@@ -21,11 +32,13 @@
   },
   "semantic_anchoring": {
     "on": true,
-    "fixpoint": "Crystal Mike",
+    "viewpoint": "Crystal Mike",
     "schema_corridor": "AutomatonCommand",
     "euclidean_span_default": 0.25,
     "kreuzkopplung_stable": "abs(rel - 0.25) <= 1e-3"
   },
   "detectTargetNode": "sub_route_after_stack",
-  "stamp": "2026-08-23T19:23:00Z"
+  "stamp": "2026-09-18T18:00:00Z",
+  "sync": "DA-20260918-LIVE-RAIL-HOT-DEFAULT-DENIED",
+  "rail": "hot-default-denied"
 }
